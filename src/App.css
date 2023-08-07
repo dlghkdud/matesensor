@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url("./fonts/Pretendard-Medium.woff");
+}
+
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url("./fonts/Pretendard-SemiBold.woff");
+}
+
+.nav {
+  font-family: Pretendard-SemiBold;
+  font-size: 27px;
+  padding-top: 10px;
+}
+
+.left {
+  position: relative;
+  top: -22px;
+  padding-right: 23px;
+}
+
+.right {
+  position: relative;
+  top: -22px;
+  left: 40.5%;
+  margin-right: 13px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 14px;
+  background-color: #9DB0DB;
+}
+
+.right2 {
+  position: relative;
+  top: -22px;
+  left: 41%;
+  color: #384E75;
+}
+
+.logo {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.residence {
+  position: relative;
+  font-family: Pretendard-Medium;
+  font-size: 33px;
+  left: 40px;
+  top: 30px;
+  padding-left: 16px;
+  padding-right: 14px;
+  padding-bottom: 11px;
+  padding-top: 4px;
+  border-radius: 19px;
+  border: none;
+  background-color: #9DB0DB;
+}
+
+.search {
+  position: relative;
+  top: 8px;
+}
+
+.footer {
+  font-family: Pretendard-Medium;
+  position: relative;
+  top: 930px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  background-color: #1F2A3F;
+}
+
+.footerlogo {
+  padding-right: 240px;
+  padding-left: 120px;
+}
+
+.technology {
+  position: relative;
+  top: -30px;
+  font-size: 27px;
+  padding-right: 160px;
+}
+
+.location {
+  position: relative;
+  top: -30px;
+  font-size: 27px;
+  padding-right: 268px;
+}
+
+.contact {
+  position: relative;
+  top: -30px;
+  font-size: 27px;
+}
+
+.footercontent {
+  position: relative;
+  font-size: 25px;
+  padding-left: 135px;
+}
+
+.technologycontent {
+  position: relative;
+  font-size: 25px;
+  margin-top: -110px;
+  padding-left: 600px;
+  line-height: 38px;
+}
+
+.locationcontent {
+  position: relative;
+  font-size: 25px;
+  padding-left: 900px;
+  margin-top: -150px;
+  line-height: 38px;
+}
+
+.contactcontent {
+  position: relative;
+  font-size: 25px;
+  padding-left: 1280px;
+  margin-top: -115px;
+  line-height: 38px;
+}
+
+.site {
+  position: relative;
+  padding-left: 130px;
+  margin-top: -95px;
+}
+
+.twitter {
+  position: relative;
+  left: -8px;
+}
+
+.facebook {
+  position: relative;
+}
+
+.insta {
+  position: relative;
+  left: 8px;
+}
+
+.blog {
+  position: relative;
+  left: 16px;
+}
+
+.git {
+  position: relative;
+  left: 24px;
+}
+
+.boundary {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 100px;
+}
+
+.lastfooter {
+  position: relative;
+  font-size: 26px;
+  padding-left: 110px;
+  padding-top: 20px;
+  opacity: 80%;
+}
