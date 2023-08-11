@@ -1,14 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Layout from './Layout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Mating from './pages/Mating';
-import Matingchat from './pages/Matingchat';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import Signupemail from './pages/Signupemail';
-import app from './firebase';
+import Layout from '../Layout';
+import Home from './Home';
+import About from './About';
+import Mating from './Mating';
+import Matingchat from './Matingchat';
+import Login from './Login';
+import Signup from './Signup';
+import app from '../firebase';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
       </Route>
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<Signup />} />
-      <Route path='/signupemail' element={<Signupemail />} />
     </Routes>
   );
 }

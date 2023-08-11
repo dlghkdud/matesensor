@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'Pretendard-Regular';
+  src: url("./fonts/Pretendard-Regular.woff");
+}
+
+@font-face {
   font-family: 'Pretendard-Medium';
   src: url("./fonts/Pretendard-Medium.woff");
 }
@@ -8,6 +13,17 @@
   src: url("./fonts/Pretendard-SemiBold.woff");
 }
 
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url("./fonts/Pretendard-Bold.woff");
+}
+
+@font-face {
+  font-family: 'Bayon';
+  src: url("./fonts/Bayon-Regular.ttf");
+}
+
+/* Home */
 .nav {
   font-family: Pretendard-SemiBold;
   font-size: 27px;
@@ -18,6 +34,8 @@
   position: relative;
   top: -22px;
   padding-right: 23px;
+  text-decoration: none;
+  color: black;
 }
 
 .right {
@@ -31,6 +49,8 @@
   padding-bottom: 5px;
   border-radius: 14px;
   background-color: #9DB0DB;
+  text-decoration: none;
+  color: black;
 }
 
 .right2 {
@@ -38,6 +58,7 @@
   top: -22px;
   left: 41%;
   color: #384E75;
+  text-decoration: none;
 }
 
 .logo {
@@ -172,4 +193,403 @@
   padding-left: 110px;
   padding-top: 20px;
   opacity: 80%;
+}
+
+/* About */
+.about {
+  background-image: url("./img/about.png");
+  background-repeat: no-repeat;
+}
+
+.Kor {
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.mate {
+  font-family: Bayon;
+  font-size: 45px;
+}
+
+.Kormate {
+  font-family: Pretendard-Medium;
+  font-size: 45px;
+}
+
+.Korcon {
+  font-family: Pretendard-Regular;
+  font-size: 37px;
+}
+
+.Eng {
+  position: relative;
+  top: 85px;
+  text-align: right;
+  right: 35px;
+}
+
+.Engmate {
+  font-family: Pretendard-Medium;
+  position: relative;
+  top: -3px;
+  font-size: 44px;
+}
+
+.Engcon {
+  font-family: Pretendard-Regular;
+  font-size: 37px;
+}
+
+.aboutfooter {
+  font-family: Pretendard-Medium;
+  position: relative;
+  top: 180px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  background-color: #1F2A3F;
+}
+
+/* Signup, Login */
+.signlogo {
+  height: 55px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/* Signup */
+.Signup {
+  background-image: url(./img/signup.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.signup {
+  position: relative;
+  top: 180px;
+  left: 330px;
+  font-size: 40px;
+}
+
+.signuptitle {
+  font-family: Pretendard-Bold;
+}
+
+.signupmate {
+  font-family: Bayon;
+}
+
+.signupboundary {
+  position: relative;
+  top: 208px;
+  left: -65px;
+  opacity: 50%;
+}
+
+.signupcon {
+  font-family: Pretendard-Medium;
+  font-size: 20px;
+  position: relative;
+  top: 248px;
+  left: -525px;
+}
+
+.signgoogle {
+  position: relative;
+  top: 250px;
+  left: 487px;
+}
+
+.signemail {
+  position: relative;
+  top: 335px;
+  left: 10px;
+}
+
+.gotologin {
+  position: relative;
+  top: 425px;
+  left: -470px;
+}
+
+/* Login */
+.Login {
+  background-image: url(./img/login.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.login {
+  position: relative;
+  top: 180px;
+  left: 330px;
+  font-size: 40px;
+}
+
+.logintitle {
+  font-family: Pretendard-Bold;
+}
+
+.loginmate {
+  font-family: Bayon;
+}
+
+.loginboundary {
+  position: relative;
+  top: 208px;
+  left: -38px;
+  opacity: 50%;
+}
+
+.logincon {
+  font-family: Pretendard-Medium;
+  font-size: 20px;
+  position: relative;
+  top: 248px;
+  left: -497px;
+}
+
+.logingoogle {
+  position: relative;
+  top: 250px;
+  left: 487px;
+}
+
+.loginemail {
+  position: relative;
+  top: 335px;
+  left: 10px;
+}
+
+.gotosign {
+  position: relative;
+  top: 425px;
+  left: -470px;
+}
+
+/* Signupemail */
+.Signupemail {
+  background-image: url(./img/login.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.signupemail {
+  position: relative;
+  top: 30px;
+  left: 330px;
+  font-size: 40px;
+}
+
+.signemailboundary {
+  position: relative;
+  top: 58px;
+  left: -65px;
+  opacity: 50%;
+}
+
+input:focus {outline:none;}
+textarea:focus {outline:none;}
+
+.signupemailtitle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 105px;
+  left: -520px;
+}
+
+.inputemail {
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  position: relative;
+  top: 143px;
+  left: -600px;
+  height: 40px;
+  width: 435px;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.signuppasswordtitle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 203px;
+  left: -1043px;
+}
+
+.inputpassword {
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  position: relative;
+  top: 186px;
+  left: 500px;
+  height: 40px;
+  width: 435px;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.residencetitle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 251px;
+  left: 59px;
+}
+
+.inputresidence {
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  position: relative;
+  top: 292px;
+  left: -92px;
+  height: 40px;
+  width: 435px;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.mbtititle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 366px;
+  left: -532px;
+}
+
+.inputmbti {
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  position: relative;
+  top: 360px;
+  left: -520px;
+  height: 40px;
+  width: 150px;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.activitytitle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 425px;
+  left: -765.7px;
+}
+
+.inputactivity {
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  position: relative;
+  top: 420px;
+  left: -753.7px;
+  height: 40px;
+  width: 150px;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.pettitle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 392px;
+  left: 507px;
+}
+
+.o {
+  font-family: Pretendard-SemiBold;
+  font-size: 25px;
+  position: relative;
+  top: 392px;
+  left: 518px;
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  border: none;
+  padding-left: 8px;
+  padding-right: 9px;
+  padding-bottom: 2px;
+}
+.x {
+  font-family: Pretendard-SemiBold;
+  font-size: 24px;
+  position: relative;
+  top: 392px;
+  left: 524px;
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.introductiontitle {
+  font-family: Pretendard-SemiBold;
+  font-size: 30px;
+  position: relative;
+  top: 450px;
+  left: 373px;
+}
+
+.inputintroduction {
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  position: relative;
+  top: 541px;
+  left: 198px;
+  border: none;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  resize: none;
+  width: 435px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+.signupbutton {
+  font-family: Pretendard-SemiBold;
+  font-size: 20px;
+  position: relative;
+  height: 50px;
+  width: 190px;
+  top: 607px;
+  left: -250px;
+  background-color: #919191;
+  border-radius: 15px;
+  border: none;
+}
+
+.gotologinbutton {
+  font-family: Pretendard-SemiBold;
+  font-size: 20px;
+  position: relative;
+  height: 50px;
+  width: 247px;
+  top: 607px;
+  left: -240px;
+  background-color: #919191;
+  border-radius: 15px;
+  border: none;
 }
