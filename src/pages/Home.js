@@ -10,11 +10,7 @@ import boundary from '../img/boundary.png';
 
 const Home = () => {
     return (
-        <div>
-            <div>
-                <span className='banner'><img src = {banner}/></span>
-            </div>
-
+        <div className='home'>
             <div>
                 <button className='residence'>Residence<img className='search' src = {search}/></button>
             </div>

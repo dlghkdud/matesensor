@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
@@ -6,8 +6,10 @@ import signlogo from '../img/signlogo.png';
 import signboundary from '../img/signboundary.png';
 
 const Signupemail = () =>{
+    const navigate = useNavigate();
     const [registerEmail, setRegisterEmail] = useState("");
     const [registerPassword, setRegisterPassword] = useState("");
+    
 
     const register = async () => {
         try {
@@ -17,6 +19,7 @@ const Signupemail = () =>{
                 registerPassword
             );
             console.log(user);
+            navigate('/login');
         } catch (error) {
             console.log(error.message);
         }

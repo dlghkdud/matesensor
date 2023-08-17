@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import signlogo from '../img/signlogo.png'
 import signboundary from '../img/signboundary.png'
 import logingoogle from '../img/logingoogle.png'
@@ -24,9 +24,9 @@ const Login = () => {
                 <img src={logingoogle} />
             </span>
 
-            <span className='loginemail'>
+            <Link to='/loginemail' className='loginemail'>
                 <img src={loginemail} />
-            </span>
+            </Link>
 
             <Link to='/signup' className='gotosign'>
                 <img src={gotosignup} />

@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Mating from './Mating';
 import Matingchat from './Matingchat';
+import My from './My';
 import Login from './Login';
 import Signup from './Signup';
 import app from '../firebase';
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/mating' element={<Mating />} />
         <Route path='/matingchat' element={<Matingchat />} />
+        <Route path='/my' element={<My />} />
       </Route>
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<Signup />} />
