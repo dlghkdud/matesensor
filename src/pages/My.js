@@ -1,44 +1,38 @@
 import "../App.css";
+import profile from "../img/myprofile.png";
 import myimg from "../img/my.png";
 
 const My = () => {
   return (
     <div className="my">
-      <div className="info">
-        <div className="block">
-          <h2 className="name">Name/age</h2>
-          <input className="name desc"></input>
-        </div>
-        <div className="block">
-          <h2 className="phone">Phone</h2>
-          <input className="phone desc"></input>
-        </div>
-        <div className="block">
-          <h2 className="my-residence">residence</h2>
-          <input className="my-residence desc"></input>
-        </div>
-        <div className="block">
-          <h2 className="mbti">MBTI</h2>
-          <input className="mbti desc"></input>
-        </div>
-        <div className="block">
-          <h2 className="actTime">Main activity time</h2>
-          <input className="actTime desc"></input>
-        </div>
-        <div className="block">
-          <h2 className="pets">Pets</h2>
-          <button className="petsdesc">O</button>
-          <button className="petsdesc">X</button>
-        </div>
-        <div className="block">
-          <h2 className="introduction">Introduction</h2>
-          <textarea className="introductiondesc"></textarea>
-        </div>
-        <div className="block">
-          <button className="modify">수정</button>
-          <button className="save">저장</button>
-        </div>
-      </div>
+      <img src={profile} className=""></img>
+
+      <span className="Myname">
+        <span className="myname">Name/age</span>
+        <input className="namedesc"></input>
+      </span>
+      <span className="myphone">Phone</span>
+      <input className="phonedesc"></input>
+
+      <span className="myresidence">residence</span>
+      <input className="my-residence desc"></input>
+
+      <span className="mymbti">MBTI</span>
+      <input className="mbti desc"></input>
+
+      <span className="mymaintime">Main activity time</span>
+      <input className="actTime desc"></input>
+
+      <span className="mypets">Pets</span>
+      <button className="myO">O</button>
+      <button className="myX">X</button>
+
+      <span className="myintroduction">Introduction</span>
+      <textarea className="introductiondesc"></textarea>
+
+      <button className="mymodify">수정</button>
+      <button className="mysave">저장</button>
+
       <img src={myimg} className="myimg" />
     </div>
   );
