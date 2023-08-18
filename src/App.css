@@ -1,25 +1,25 @@
 @font-face {
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   src: url("./fonts/Pretendard-Regular.woff");
 }
 
 @font-face {
-  font-family: 'Pretendard-Medium';
+  font-family: "Pretendard-Medium";
   src: url("./fonts/Pretendard-Medium.woff");
 }
 
 @font-face {
-  font-family: 'Pretendard-SemiBold';
+  font-family: "Pretendard-SemiBold";
   src: url("./fonts/Pretendard-SemiBold.woff");
 }
 
 @font-face {
-  font-family: 'Pretendard-Bold';
+  font-family: "Pretendard-Bold";
   src: url("./fonts/Pretendard-Bold.woff");
 }
 
 @font-face {
-  font-family: 'Bayon';
+  font-family: "Bayon";
   src: url("./fonts/Bayon-Regular.ttf");
 }
 
@@ -48,7 +48,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 14px;
-  background-color: #9DB0DB;
+  background-color: #9db0db;
   text-decoration: none;
   color: black;
 }
@@ -57,7 +57,7 @@
   position: relative;
   top: -22px;
   left: 41%;
-  color: #384E75;
+  color: #384e75;
   text-decoration: none;
 }
 
@@ -84,7 +84,7 @@
   padding-top: 4px;
   border-radius: 19px;
   border: none;
-  background-color: #9DB0DB;
+  background-color: #9db0db;
 }
 
 .search {
@@ -98,8 +98,8 @@
   top: 1578px;
   padding-top: 60px;
   padding-bottom: 30px;
-  color: #FFFFFF;
-  background-color: #1F2A3F;
+  color: #ffffff;
+  background-color: #1f2a3f;
   width: 1690px;
 }
 
@@ -255,8 +255,8 @@
   top: 180px;
   padding-top: 60px;
   padding-bottom: 30px;
-  color: #FFFFFF;
-  background-color: #1F2A3F;
+  color: #ffffff;
+  background-color: #1f2a3f;
   width: 1690px;
 }
 
@@ -399,8 +399,12 @@
   opacity: 50%;
 }
 
-input:focus {outline:none;}
-textarea:focus {outline:none;}
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
 
 .signupemailtitle {
   font-family: Pretendard-SemiBold;
@@ -655,7 +659,7 @@ textarea:focus {outline:none;}
   left: -1020px;
 }
 
-.inputpasswordlogin{
+.inputpasswordlogin {
   font-family: Pretendard-Regular;
   font-size: 15px;
   position: relative;
@@ -696,9 +700,7 @@ textarea:focus {outline:none;}
   border: none;
 }
 
+/* My */
 .my {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  font-family: Pretendard-SemiBold;
 }
