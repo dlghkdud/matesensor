@@ -19,9 +19,20 @@ const Signupemail = () =>{
                 registerPassword
             );
             console.log(user);
+            alert('Your membership registration has been completed!')
             navigate('/login');
         } catch (error) {
-            console.log(error.message);
+            switch (error.code) {
+                case 'auth/weak-password':
+                    alert('Password must be at least 6 digits long');
+                    break;
+                case 'auth/invalid-email':
+                    alert('Invalid email address');
+                    break;
+                case 'auth/email-already-in-use':
+                    alert('This account is already subscribed');
+                    break;
+            }
         }
     };
 
@@ -66,7 +77,6 @@ const Signupemail = () =>{
             <textarea className='inputintroduction'></textarea>
 
             <button className='signupbutton'onClick={register}>Signup</button>
-            <Link to='/login'><button className='gotologinbutton'>Go to Log in</button></Link>
         </div>
     )
 }

@@ -16,6 +16,7 @@ const Loginemail = () => {
 
 
     onAuthStateChanged(auth, (currentUser) => {
+        console.log(auth);
         setUser(currentUser);
     });
 
@@ -27,8 +28,10 @@ const Loginemail = () => {
                 loginPassword
             );
             document.location.href = '/'
+            console.log(user);
+            console.log(auth);
         } catch (error) {
-            console.log(error.message);
+            alert('Please check your email or password again')
         }
     };
 
@@ -57,6 +60,7 @@ const Loginemail = () => {
             />
             
             <button className='loginbutton'onClick={login}>Login</button>
+            
             <Link to='/signup'><button className='gotosignupbutton'>Go to Sign up</button></Link>
         </div>
     )

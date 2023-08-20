@@ -2,7 +2,7 @@
 
 const Mating = () => {
     return(
-        <div></div>
+        <div>메이팅페이지</div>
     )
 }
 

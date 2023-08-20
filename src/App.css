@@ -61,6 +61,29 @@
   text-decoration: none;
 }
 
+.navmy{
+  position: relative;
+  top: -22px;
+  left: 40.4%;
+  margin-right: 13px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 14px;
+  background-color: #9db0db;
+  text-decoration: none;
+  color: black;
+}
+
+.logout{
+  position: relative;
+  top: -22px;
+  left: 41%;
+  color: #384e75;
+  text-decoration: none;
+}
+
 .home {
   background-image: url(./img/banner.png);
   background-repeat: no-repeat;
@@ -586,22 +609,9 @@ textarea:focus {
   font-size: 20px;
   position: relative;
   height: 50px;
-  width: 190px;
+  width: 450px;
   top: 607px;
   left: -250px;
-  background-color: #919191;
-  border-radius: 15px;
-  border: none;
-}
-
-.gotologinbutton {
-  font-family: Pretendard-SemiBold;
-  font-size: 20px;
-  position: relative;
-  height: 50px;
-  width: 247px;
-  top: 607px;
-  left: -240px;
   background-color: #919191;
   border-radius: 15px;
   border: none;

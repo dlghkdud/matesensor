@@ -7,14 +7,13 @@ import Mating from './Mating';
 import Matingchat from './Matingchat';
 import My from './My';
 import Login from './Login';
-import Signup from './Signup';
-import app from '../firebase';
+import Signup from './Signup';    
 
 function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route index element={<Home />} />
+      <Route index element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/mating' element={<Mating />} />
         <Route path='/matingchat' element={<Matingchat />} />
